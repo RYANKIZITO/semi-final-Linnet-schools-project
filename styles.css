@@ -1,0 +1,236 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.wrapper {
+  max-width: 1400px; /* Adjusted max-width for larger screens */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+/* Offcanvas */
+.offcanvas-header h5 {
+  color: #fff;
+}
+
+.offcanvas-body {
+  background-color: #212529;
+}
+
+.offcanvas-body .nav-link {
+  color: #fff !important;
+}
+
+/* Slidecontainer */
+.slidecontainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.slidecontainer img {
+  max-width: 100%;
+}
+
+/* Shamirah */
+.shamirah {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.side {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.side h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.side hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 2px solid #343a40;
+}
+
+.side p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer-section hr {
+  margin: 10px auto;
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 50%;
+}
+
+.footer-section p {
+  font-size: 1rem;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.social-links a:hover {
+  color: #ccc;
+}
+
+/* fees structure */
+.table-responsive {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: top;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+thead {
+  background-color: #343a40;
+  color: #fff;
+}
+
+thead th {
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e2e2e2;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+tfoot {
+  background-color: #343a40;
+  color: #fff;
+}
+
+tfoot th {
+  padding: 10px;
+}
+
+/* Contact Us */
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Add media query for larger screens */
+@media screen and (min-width: 1600px) {
+  .wrapper {
+    max-width: 1600px;
+  }
+}
